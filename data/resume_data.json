@@ -1,0 +1,124 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "title": "Software Developer",
+    "email": "john.doe@example.com",
+    "phone": "+1 (123) 456-7890",
+    "location": "New York, NY",
+    "website": "www.johndoe.com",
+    "about": "Experienced software developer with a passion for creating innovative solutions. Skilled in multiple programming languages and frameworks with a focus on delivering clean, efficient, and maintainable code. Looking for challenging opportunities to leverage my technical expertise in a dynamic team environment."
+  },
+  "experience": [
+    {
+      "position": "Senior Software Developer",
+      "company": "Tech Innovations Inc.",
+      "location": "New York, NY",
+      "employmentType": "Full-time",
+      "startDate": "Jan 2020",
+      "endDate": "Present",
+      "description": "Lead developer for multiple web applications, managing a team of junior developers. Implemented CI/CD pipelines that reduced deployment time by 40%. Redesigned legacy systems using modern architecture principles, improving performance by 60%."
+    },
+    {
+      "position": "Web Developer",
+      "company": "Digital Solutions LLC",
+      "location": "Boston, MA",
+      "employmentType": "Full-time",
+      "startDate": "Jun 2017",
+      "endDate": "Dec 2019",
+      "description": "Developed responsive web applications using React and Node.js. Collaborated with UX/UI designers to implement user-friendly interfaces. Optimized database queries, reducing load times by 35%."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Massachusetts Institute of Technology",
+      "location": "Cambridge, MA",
+      "fieldOfStudy": "Computer Science",
+      "startDate": "Sep 2015",
+      "endDate": "May 2017",
+      "description": "Specialized in Artificial Intelligence and Machine Learning. Graduated with honors. Received Outstanding Student Award."
+    },
+    {
+      "degree": "Bachelor of Science in Computer Engineering",
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "fieldOfStudy": "Computer Engineering",
+      "startDate": "Sep 2011",
+      "endDate": "May 2015",
+      "description": "Dean's List all semesters. Participated in various hackathons and coding competitions."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "category": "Programming",
+      "level": "Expert"
+    },
+    {
+      "name": "React",
+      "category": "Programming",
+      "level": "Advanced"
+    },
+    {
+      "name": "Node.js",
+      "category": "Programming",
+      "level": "Advanced"
+    },
+    {
+      "name": "Python",
+      "category": "Programming",
+      "level": "Intermediate"
+    },
+    {
+      "name": "SQL",
+      "category": "Programming",
+      "level": "Advanced"
+    },
+    {
+      "name": "RESTful API Design",
+      "category": "Programming",
+      "level": "Advanced"
+    },
+    {
+      "name": "UI/UX Design",
+      "category": "Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Docker",
+      "category": "Tools",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Git",
+      "category": "Tools",
+      "level": "Advanced"
+    },
+    {
+      "name": "Agile Methodologies",
+      "category": "Soft",
+      "level": "Advanced"
+    },
+    {
+      "name": "Team Leadership",
+      "category": "Soft",
+      "level": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "Developed a full-stack e-commerce platform with product management, user authentication, and payment processing integration.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+      "url": "https://github.com/johndoe/ecommerce-platform",
+      "image": "/images/project-ecommerce.jpg"
+    },
+    {
+      "title": "Real-time Chat Application",
+      "description": "Built a real-time chat application with private messaging, group chats, and file sharing capabilities.",
+      "technologies": ["Socket.io", "React", "Express", "MongoDB"],
+      "url": "https://github.com/johndoe/chat-app",
+      "image": "/images/project-chat.jpg"
+    }
+  ]
+}

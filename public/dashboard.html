@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Dashboard | Offshore Rapport</title>
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <header>
+      <h1>Resume Dashboard</h1>
+      <p>Edit and update your professional resume</p>
+    </header>
+
+    <main>
+      <div class="form-container">
+        <form id="resume-form">
+          <div class="form-section">
+            <h2>Personal Information</h2>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="title">Professional Title</label>
+              <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location">
+            </div>
+            <div class="form-group">
+              <label for="website">Website</label>
+              <input type="url" id="website" name="website">
+            </div>
+            <div class="form-group">
+              <label for="about">About Me</label>
+              <textarea id="about" name="about" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="profile-img">Profile Image</label>
+              <input type="file" id="profile-img" name="profile-img" accept="image/*">
+              <div id="profile-preview" class="image-preview"></div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h2>Experience <button type="button" id="add-experience" class="add-button"><i class="fas fa-plus"></i> Add</button></h2>
+            <div id="experience-container">
+              <!-- Experience fields will be added here dynamically -->
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h2>Education <button type="button" id="add-education" class="add-button"><i class="fas fa-plus"></i> Add</button></h2>
+            <div id="education-container">
+              <!-- Education fields will be added here dynamically -->
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h2>Skills <button type="button" id="add-skill" class="add-button"><i class="fas fa-plus"></i> Add</button></h2>
+            <div id="skills-container">
+              <!-- Skill fields will be added here dynamically -->
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h2>Projects <button type="button" id="add-project" class="add-button"><i class="fas fa-plus"></i> Add</button></h2>
+            <div id="projects-container">
+              <!-- Project fields will be added here dynamically -->
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="save-button">Save Changes</button>
+            <a href="/" class="view-button" target="_blank">View Resume</a>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="current-year"></span> Offshore Rapport. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>
