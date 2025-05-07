@@ -8,7 +8,12 @@
     "setup": "./start.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["resume", "portfolio", "offshore", "rapport"],
+  "keywords": [
+    "resume",
+    "portfolio",
+    "offshore",
+    "rapport"
+  ],
   "author": "DomusGPT",
   "license": "ISC",
   "description": "A dynamic resume website with admin dashboard for easy updates",
@@ -18,7 +23,7 @@
     "multer": "^1.4.5-lts.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.10"
   },
   "engines": {
     "node": ">=18.0.0"
