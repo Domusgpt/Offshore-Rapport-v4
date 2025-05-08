@@ -83,6 +83,6 @@ app.post('/api/upload', upload.single('image'), (req, res) => {
 });
 
 // Start the server
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT} and accessible from all interfaces`);
 });
