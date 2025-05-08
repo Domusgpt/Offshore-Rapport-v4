@@ -9,14 +9,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "resume",
-    "portfolio",
+    "magazine",
+    "digital",
     "offshore",
     "rapport"
   ],
   "author": "DomusGPT",
   "license": "ISC",
-  "description": "A dynamic resume website with admin dashboard for easy updates",
+  "description": "A dynamic digital magazine with a dashboard for AI-driven content management",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
